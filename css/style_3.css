@@ -26,8 +26,14 @@ ul a {
 }
 
 section {
-    padding: 2rem 0;
+    padding: 2rem 0 0;
     background-color: coral;
+}
+
+section::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 section>h2 {
@@ -47,7 +53,6 @@ section>.box.center {
 }
 
 footer {
-    margin-top: 10.5rem;
     padding: 1.5rem;
     background-color: darkgoldenrod;
 }
