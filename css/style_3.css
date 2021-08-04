@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem .5rem;
+    background-color: aqua;
+}
+
+nav {
+    padding: 1.5rem 1rem;
+    background-color: cadetblue;
+}
+
+ul {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+    background-color: coral;
+}
+
+section>h2 {
+    margin-bottom: 1rem;
+}
+
+section>.box {
+    width: 33.333%;
+    height: 12.5rem;
+    padding: 1rem;
+    float: left;
+    background-color: lightblue;
+}
+
+section>.box.center {
+    background-color: lightcyan;
+}
+
+footer {
+    margin-top: 10.5rem;
+    padding: 1.5rem;
+    background-color: darkgoldenrod;
+}
