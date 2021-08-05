@@ -36,11 +36,17 @@ section::after {
     display: table;
 }
 
+@media (max-width: 600px) {
+    section p {
+        width: 100%;
+    }
+}
+
 section>h2 {
     margin-bottom: 1rem;
 }
 
-section>.box {
+section>p {
     width: 33.333%;
     height: 12.5rem;
     padding: 1rem;
@@ -48,7 +54,7 @@ section>.box {
     background-color: lightblue;
 }
 
-section>.box.center {
+section>p.center {
     background-color: lightcyan;
 }
 
