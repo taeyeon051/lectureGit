@@ -47,7 +47,7 @@ section>h2 {
 }
 
 section>p {
-    width: 33.333%;
+    width: 25%;
     height: 12.5rem;
     padding: 1rem;
     float: left;
@@ -55,6 +55,7 @@ section>p {
 }
 
 section>p.center {
+    width: 50%;
     background-color: lightcyan;
 }
 
