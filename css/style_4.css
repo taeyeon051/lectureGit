@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem .5rem;
+    background-color: aqua;
+}
+
+nav {
+    padding: 1.5rem 1rem;
+    background-color: cadetblue;
+}
+
+ul {
+    width: 12rem;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0 0;
+    background-color: coral;
+}
+
+.d-flex {
+    display: flex;
+}
+
+@media (max-width: 600px) {
+    section p {
+        width: 100%;
+    }
+}
+
+section>h2 {
+    margin-bottom: 1rem;
+}
+
+section p {
+    width: calc(100% / 3);
+    height: 12.5rem;
+    padding: 1rem;
+    background-color: lightblue;
+}
+
+section p.center {
+    background-color: lightcyan;
+}
+
+footer {
+    padding: 1.5rem;
+    background-color: darkgoldenrod;
+}
