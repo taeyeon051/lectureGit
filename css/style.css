@@ -1,0 +1,160 @@
+* {
+    list-style: none;
+}
+
+
+/* 사이드 헤더 */
+
+aside {
+    width: 20rem;
+    height: 100vh;
+    background-color: #28010a;
+    padding-top: 3.5rem;
+    position: fixed;
+    top: 0; left: 0;
+}
+
+
+/* 로고 */
+
+#logo {
+    margin-left: -0.5rem;
+}
+
+
+/* 메뉴 */
+
+nav>ul>li {
+    height: 2.5rem;
+    transition: .5s;
+    padding-left: 1.5rem;
+    overflow: hidden;
+}
+
+nav>ul>li>a {
+    color: #fff;
+}
+
+nav>ul>li:hover>a {
+    transform: translateX(-0.5rem);
+}
+
+nav>ul>li:hover {
+    height: 10rem;
+}
+
+nav>ul>li:nth-child(3):hover {
+    height: 7.5rem;
+}
+
+li>ul {
+    width: 12rem;
+    padding-left: 0;
+    margin-left: 0.5rem;
+    background-color: #560018;
+}
+
+li>ul a {
+    padding-left: 1rem;
+    font-size: 14px;
+    color: #a06e79;
+}
+
+li>ul a:hover {
+    color: #c68f5b;
+    background-color: #440113;
+}
+
+li>a {
+    transition: .5s;
+    height: 2.5rem;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/* 메인페이지 */
+
+section {
+    height: 100vh;
+    padding-left: 20rem;
+    overflow: hidden;
+}
+
+#main>img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+section>div {
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+section>div::-webkit-scrollbar {
+    width: 15px;
+}
+
+section>div::-webkit-scrollbar-thumb {
+    background-color: #560018;
+    border: 3px solid transparent;
+    background-clip: padding-box;
+    border-radius: 1rem;
+}
+
+.cards {
+    width: 100%;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1.5rem;
+}
+
+.card>img {
+    height: 15rem;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
+.card {
+    width: 16rem;
+}
+
+.card-body>span {
+    color: #666;
+    font-size: 14px;
+}
+
+.card-body>strong {
+    color: #333;
+    font-size: 22px;
+}
+
+.card-body>hr {
+    width: 20%;
+    margin-bottom: 0.25rem;
+    opacity: 1;
+    background-color: #820024;
+}
+
+.card-body>.number {
+    font-size: 20px;
+    color: #bb1b39;
+}
+
+.fa-star {
+    position: absolute;
+    top: -0.75rem;
+    right: -0.75rem;
+    font-size: 28px;
+    color: gold;
+}
+
+.black {
+    color: #000;
+}
